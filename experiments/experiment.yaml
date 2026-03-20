@@ -1,0 +1,16 @@
+### Main experiments
+
+dataset_experiment:
+    dataset: ['breast', 'steel', 'heart', 'spam']
+    bitlength: [10, 11, 12, 13, 14, 15, 16]
+    hamming_weight: [2,4] # Hamming weight=0 represents folklore
+    repeat: 10
+
+dataset_experiment_xcmp:
+    dataset: ['breast', 'steel', 'heart', 'spam']
+    bitlength: [10, 11, 12, 13, 14, 15, 16]
+    mult_path: [False]
+    repeat: 10
+
+plotting:
+    dataset: ['breast', 'steel', 'heart', 'spam']
